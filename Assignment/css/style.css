@@ -1,0 +1,155 @@
+.first
+{
+	background: black;
+	border-style: solid;
+	border-color: green;
+	border-width: 3px;
+}
+.fourth
+{
+	background: #228b22;
+	border:2px solid black;
+}
+nav li
+{
+display: inline;
+float: left;
+padding-right: 20px;
+padding-top: 60px;
+}
+.head
+{
+	background: #5f9ea0;
+	position: fixed;
+}
+.head h1
+{
+	font-size: 50px;
+	text-align: left;
+	margin-top: 25px;
+	font-family: 'Shadows Into Light', cursive;
+	letter-spacing: -3px;
+	color:green;
+	text-shadow:5px 5px 10px blue;
+}
+.first img
+{
+	margin-top: 20px;
+	width: 100%
+	
+}
+.second
+{
+	border-style: solid;
+	border-color: green;
+	background: black;
+	border-width: 3px;
+}
+.third
+{
+	border-style: solid;
+	border-color: green;
+	background: black;
+	border-width: 3px;
+}
+.third video
+{
+	margin: 20px 20px;
+	width:550px;
+	height:300px;
+	float:left;
+}
+.second img
+{
+	margin-top: 120px;
+	width:100%;
+	height: 100%
+}
+.head img 
+{
+	position: relative;
+	top:0px;
+	left:-10px;
+}
+a
+{
+	text-decoration: none;
+	color: #800080;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+a:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+	color: white;
+	font-style: italic;
+}
+.grid_4 h2
+{
+	padding-left: 10px;
+	font-size: 25px;
+	text-align: justify;
+color:blue;
+font-family: 'Shadows Into Light', cursive;
+letter-spacing: -1px;
+text-decoration: underline;
+}
+.first p
+{
+	padding-left: 10px;
+color:white;
+font-family: 'Shadows Into Light', cursive;
+letter-spacing: 2px;
+font-size: 20px;
+}
+section{
+    box-sizing:border-box;
+	background: black;
+}
+.second blockquote
+{
+	margin-top: 30px;
+	color:white;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+.second p{
+	color:white;
+	text-align: right;
+	font-family: 'Shadows Into Light', cursive;
+	letter-spacing: 3px;
+	font-size: 20px;
+	padding-right: 40px;
+}
+.third p{
+	color:white;
+	font-family: 'Shadows Into Light', cursive;
+	margin-top: 30px;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+.foot p{
+	margin-top: 10px;
+	font-size: 10px;
+	color:white;
+	text-align: center;
+	padding-left: 200px;
+	letter-spacing: 3px;
+}
+.foot b 
+{
+	float:right;
+	padding-right: 65px;
+}
+.foot .icon 
+{
+	padding-left: 160px;
+}
+.foot i 
+{
+	padding-left: 10px;
+}
