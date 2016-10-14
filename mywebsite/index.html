@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Welcome to Happy Tours</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+		<!--Custom icon for taskbar-->
+		<link rel="shortcut icon" href="images/logo1.ico" type="image/ico" />
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+	</head>
+
+	<body>
+	<div class="container" id="main">
+		<div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+                 	<span class="icon-bar"></span>
+                 	<span class="icon-bar"></span>
+                 	<span class="icon-bar"></span>
+                </button>  <!-- end of toggle button-->
+            	<a class="navbar-brand" href="/"><img src="images/logo1.jpg" alt="myLogo"></a> <!--tag to add logo to the navbar-->
+            	<div class="nav-collapse collapse navbar-responsive-collapse">
+            		<ul class="nav navbar-nav">
+            			<li>
+            				<a href="#">Home</a>
+            			</li>
+            			<li class="dropdown">
+            				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Tours<span class="caret"></span></a>
+            				<ul class="dropdown-menu">
+            					<li><a href="#">Bicycle Tours</a></li>
+                                <li><a href="#">Escorted Tours</a></li>
+                                <li><a href="#">Guided Tours</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Other Tours...</li>
+                                <li><a href="#">River Cruises</a></li>
+                                <li><a href="#">Adventure Travel </a></li>
+            				</ul> <!--end of list to add dropdown menu-->
+            			</li>
+            			<li>
+            				<a href="#">Contact Us</a>
+            			</li>
+            		</ul> <!-- end of list items in the navbar-->
+            		<form class="navbar-form pull-left">
+            			<input type="text" class="form-control" placeholder="Search here.." id="searchInput">
+            			<button type="submit" class="btn btn-default">
+            				<span class="glyphicon glyphicon-search">
+            				</span>
+            			</button> <!--end of submit button-->
+            		</form> <!--end of navbar form-->
+            		<ul class="nav navbar-nav pull-right">
+            			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span>My Account<span class="caret"></span></a>
+            				<ul class="dropdown-menu">
+                                <li><a href="#"><span class="glyphicon glyphicon-user"></span>Profile</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-eye-open"></span>My tours</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-wrench"></span>Settings</a></li>
+                                <li class="divider"></li> 
+                                <li><a href="#"><span class="glyphicon glyphicon-off"></span>Sign Out</a></li>
+                            </ul> <!-- end of dropdown list items-->
+            		    </li>
+            		</ul> <!--end of navbar list-->
+            	</div> <!--end of responsive navbar-->
+            </div> <!--end of navbar container-->
+		</div> <!--end of navbar-->
+
+		<div class="carousel slide" id="myCarousel" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol> <!--end of carousel list items-->
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+				</div>
+				<div class="item" id="slide2">
+				</div>
+				<div class="item" id="slide3">
+				</div>
+			</div> <!--end of carousel items-->
+			<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a><!--link for previous arrow-->
+			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a><!--link for next arrow-->
+		</div><!--end of myCarousel-->
+
+		<div class="row" id="bigCallout">
+			<div class="col-12">
+				<div class="alert alert-success alert-block fade in" id="successAlert">
+					<button type="button" class="close" data-dismiss="alert">&times;</button> <!--end of alert button-->
+					<h4>Congratulations!</h4>
+					<p>You have received an offer tour for this festive season.Use the coupon code to avail the offer!!</p>
+				</div>
+				<div class="well well-small visible-sm">
+					<a href="#" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span>Call us for support!</a>
+				</div><!--end of well small-->
+				<div class="well">
+					<div class="page-header">
+					<h1>Newsletter <small>Updates on tours</small></h1>
+					</div> <!--end of page header-->
+					<p class="lead">There are many upcoming tours that is gonna be added to our site like wildlife tourism,Jungle tourism and so on.Make your tour an adventurous one with Happy Tours!!</p>
+					<p><a href="#" id="alertMe">Click here to know your offers!</a></p>
+					<a href="" class="btn btn-large btn-primary">Explore here</a>
+					<a href="" class="btn btn-large btn-link">click to view the spots</a>
+				</div> <!--end of well-->
+			</div> <!--end of column-->
+		</div> <!--end of bigcallout-->
+
+		<div class="row" id="featuresHeading">
+			<div class="col-12">
+				<h2>Places to Visit!</h2>
+				<p class="lead">Happy Tours provides many other places which you must visit atleast once in your lifetime.</p>
+			</div><!--end of grid-->
+		</div><!--end of featuresheading-->
+
+		<div class="row" id="features">
+			<div class="col-sm-4 feature">
+                <div class="panel">
+                	<div class="panel-heading">
+                		<h3 class="panel-title">Maldives</h3>
+                	</div><!--end of panel heading-->
+                	<img src="images/maldives_badge.jpg" alt="maldives" class="img-rounded">
+                	<p>Maldives is a good place to visit if you want an international location teeming with Indians. Famous for its water sports and beaches, Maldives is heaven for sea-food lovers. You can opt to stay with one of the locals for the complete experience.</p>
+                	<a href="#" target="_blank" class="btn btn-warning btn-block">Click to know more!</a>
+                </div> <!--end of panel-->
+			</div> <!--end of column-->
+			<div class="col-sm-4 feature">
+                <div class="panel">
+                	<div class="panel-heading">
+                		<h3 class="panel-title">Singapore</h3>
+                	</div>
+                	<img src="images/singapore-badge.jpg" alt="singapore" class="img-rounded">
+                	<p>One of the most beautiful countries, Singapore has a lot to offer in terms of nature, culture and cuisine, modern structures and architecture, monuments and beaches. A small country and populated, you will get a slightly 'Indian' feel here.</p>
+                	<a href="#" target="_blank" class="btn btn-danger btn-block">Click to know more!</a>
+                </div>
+			</div>
+			<div class="col-sm-4 feature">
+                <div class="panel">
+                	<div class="panel-heading">
+                		<h3 class="panel-title">Bangkok</h3>
+                	</div>
+                	<img src="images/bangkok-badge.jpg" alt="bangkok" class="img-rounded">
+                	<p>Go here for the shopping experience and the crazy street-side food.The ladyboy shows will stun you and you will be left amazed at the grace.One of the cheapest destinations on our list, plan your trip properly and you can get it done in less than 30k.</p>
+                	<a href="#" target="_blank" class="btn btn-info btn-block">Click to know more!</a>
+                </div>
+			</div>
+		</div> <!--end of features-->
+
+		<div class="row" id="moreInfo">
+			<div class="col-sm-6">
+				<h3>Tours at different level!</h3>
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab">For Travellors</a></li>
+						<li><a href="#tab2" data-toggle="tab">Media</a></li>
+						<li><a href="#tab3" data-toggle="tab">For Business</a></li>
+					</ul> <!--list to add tags-->
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+							<h4>Explore Specialities</h4>
+							<img src=images/ayurveda.jpg width=100% height="200">
+							<p>Happy tours provide many specialities to the travellors who really wanted to visit for a vacation.Lots of places are there to visit through our guide.Many adventurous spots can also be found in our site!!Those places would be every Indian's favourite destination since it includes abroad.</p>
+
+							<p>Specialities of these places is that it includes a package of campfire,ayurveda,houseboats,backwaters,festivals,artforms,monsoon,beaches,hills,
+								monuments,
+							waterfalls,wildlife,restaurants,motels,souvenir shops,travel tips and many more.A package of all these specialities is also available with us</p>
+						</div> <!--end of tab 1-->
+						<div class="tab-pane" id="tab2">
+							<h4>News Reports</h4>
+							<img src="images/news.jpg" class="thumbnail pull-left">
+							<p>Happy Tours was conferred the national web ratna award for 2014 for exemplary e-governance initiative through the internet.We have also won the Golden Icon Award in the 'Outstanding Content' category of the web ratna awards, instituted by the union government.</p>
+
+							<p>Happy tourism launches the QR code aided tourism search.Our motive mainly invloves with people of different kinds like travellors,kids,schools,teachers,college students,employees,business meetings and many more people are involved to make this site a successful one.It keeps on growing when it receives more support from the travellors</p>
+						</div> <!--end of tab 2-->
+						<div class="tab-pane" id="tab3">
+							<h4>Online homestay Accredition <small>E-submission of C-Forms</small></h4>
+							<img src="images/business.jpg" class="thumbnail pull-left">
+							<p>Accreditation process is initiated for ensuring the quality and competence of homestays working inside the state. Now all homestays must get accreditation from the Dept of Tourism, Govt of Kerala, for its operations.</p>
+							<p>A completely online system has been instituted for accrediting Tour Operators based in Kerala. The system includes facility for online submission of applications.The accommodation providers in the state have been provided with a unique user id and password, with which they can upload details of tourist arrivals in their properties on a daily basis.</p>
+							<hr>
+							<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click to register!</a>
+							<div class="modal fade" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+										<button class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">C-Form</h4>
+										</div> <!--end of modal header-->
+										<div class="modal-body">
+											<h4>Upload Your C-Form</h4>
+
+											<p>It is mandatory for all properties in the state to submit a C-form for each foreign national staying with them to the Police Department. The online submission of Form C/Form S could be done after doing the user registration at respective FRRO/FROs.</p>
+											<h4>General Instructions</h4>
+											<a href="#" class="btn btn-danger">Click to read instuctions</a>
+											<hr>
+											<h4>Register here!</h4>
+											<form class="form-horizontal">
+												<div class="form-group">
+													<label class="col-lg-4 control-label" for="inputName">Name</label>
+													<div class="col-lg-8">
+														<input class="form-control" id="inputName" placeholder="Name" type="text">
+													</div>
+												</div><!--end of form group-->
+												<div class="form-group">
+													<label class="col-lg-4 control-label" for="inputEmail">Email Id</label>
+													<div class="col-lg-8">
+														<input class="form-control" id="inputEmail" placeholder="Email ID" type="email">
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-lg-4 control-label" for="inputNumber">Contact</label>
+													<div class="col-lg-8">
+														<input class="form-control" id="inputNumber" placeholder="Contact Number" type="text">
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-lg-4 control-label" for="inputCountry">Country</label>
+													<div class="col-lg-8">
+														<input class="form-control" id="inputCountry" placeholder="Country" type="text">
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-lg-4 control-label" for="inputPassword">New password</label>
+													<div class="col-lg-8">
+														<input class="form-control" id="inputPassword" placeholder="Password" type="password">
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-lg-4 control-label" for="inputConfirm">Confirm Password</label>
+													<div class="col-lg-8">
+														<input class="form-control" id="inputConfirm" placeholder="Confirm Password" type="password">
+													</div>
+												</div>
+											</form> <!--end of modal form-->
+											<div class="alert alert-success alert-block fade in" id="registerAlert">
+					                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+					                            <h4>Success!</h4>
+					                            <p>You are registered successfully!!</p></div><!--end of success alert-->
+											    <small>Note: Your email-id will be the username for your account</small>
+										</div><!--end of modal body-->
+										    <div class="modal-footer">
+												<button class="btn  btn-primary" type="submit" id="alertSuccess">Submit</button>
+												<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+											</div><!--end of modal footer-->
+									</div><!--end of modal content-->
+								</div><!--end of modal dialog-->
+							</div><!--end of myModal-->
+						</div> <!--end of tab 3-->
+					</div><!--end of tab content-->
+				</div><!--end of tabbable-->
+			</div><!--end of column 6 grid-->
+			<div class="more col-sm-6">
+				<h2>Gallery by Happy Tours</h2>
+				<img id="image_info" src="images/gallery.jpg" style="margin-left:30px;margin-bottom:20px;margin-top:20px;">
+				<div class="list-group">
+					<a href="imageGallery.html" class="list-group-item">
+						<h4 class="list-group-item-heading">Image Gallery</h4>
+						<p class="list-group-item-text">Happy Tours has created a lot of images with the travellors as memories.Those pictures are sited in our page as well.Many more beautiful pictures are also clicked by happy Tours photography team.</p>
+					</a>
+					<a href="videoGallery.html" class="list-group-item">
+						<h4 class="list-group-item-heading">Video Gallery</h4>
+						<p class="list-group-item-text">Happy Tours has created a lot of videos on the scenes for the new travellors to inspire themselves.Many more beautiful pictures are also clicked by happy Tours photography team</p>
+					</a>
+				</div><!--end of list group-->
+			</div><!--end of column 6 grid-->
+		</div><!--end of more info-->
+
+		<div class="row" id="moreCourses">
+			<div class="col-12">
+				<h3>Join our team!!</h3>
+				<div class="thumbnails row">
+					<div class="col-6">
+						<div class="thumbnail">
+							<img src="images/campfire.jpg" class="img-rounded"alt="CampFire" style="margin-left:30px;margin-top:20px;">
+							<div class="label label-success new"><span class="glyphicon glyphicon-share-alt"></span>New!</div>
+							<div class="caption">
+							 	<h3>Join Campfire Team!!</h3>
+							 	<p>Join this team to know more about setting the campfire in places that you most fit with.You can also explore types of campfire in this team.</p>
+							 	<p><a href="https://en.wikipedia.org/wiki/Campfire" class="btn btn-primary btn-small" target="_blank">Click for more!</a></p>
+							</div><!--end of caption-->
+						</div><!--end of thumbnail-->
+					</div><!--end of column 6 grid-->
+					<div class="col-6">
+						<div class="thumbnail">
+							<img src="images/budget.jpg" class="img-rounded"alt="Budget" style="margin-left:3 0px;margin-top:20px;">
+							<div class="label label-success new"><span class="glyphicon glyphicon-share-alt"></span>New!</div>
+							<div class="caption">
+							 	<h3>Join Budget Planner Team!!</h3>
+							 	<p>Join this team to plan ideas and places for the travellors.this team would render service in planning the budget for the travellors with budget mind.</p>
+							 	<p><a href="http://www.wikihow.com/Create-a-Travel-Budget" class="btn btn-primary btn-small" target="_blank">Click for more!</a></p>
+							</div><!--end of caption-->
+						</div><!--end of thumbnail-->
+					</div><!--end of column 6 grid-->
+				</div><!--end of thumbnails row-->
+			</div><!--end of column 12 grid-->
+		</div><!--end of more courses-->
+    </div><!--end of main container-->
+    <footer>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-sm-4">
+    				<h4>Copyright &copy; 2016.All rights Reserved</h4>
+    			</div>
+    			<div class="col-sm-4">
+    				<h4>About Us!</h4>
+    				<p>Happy Tours was launched with full pledge on 2015 and it grows on registration from the travel lovers.We also provide with information about specific destinations or types of travel, directory of hotels and homestays,campfire and many more.Do visit our site regularly to know latest updates.</p>
+    			</div>
+    			<div class="col-sm-4">
+    				<h4>Subscribe</h4>
+    				<div class="label label-info share"><i class="fa fa-facebook-official"></i> Facebook</div>
+    				<div class="label label-info share"><i class="fa fa-twitter"></i> Twitter</div>
+    				<div class="label label-info share"><i class="fa fa-instagram"></i> Instagram</div>
+    		    </div>
+    	    </div><!--end of row-->
+    	</div>
+    </footer><!--end of footer-->
+ 	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>

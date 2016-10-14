@@ -1,0 +1,47 @@
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   #featuresHeading
+{
+	margin-top:140px;
+}
+footer
+{
+   background: #333;
+   color:#eee;
+   font-size: 11px;
+   padding-top: 20px;
+   padding-left: 20px;
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+  
+   #searchInput
+   {
+      width: 200px;
+   }
+   .dropdown-menu
+   {
+      width: 200px;
+   }
+   .navbar-brand
+   {
+      padding:5px 15px;
+   }
+   footer .share
+   {
+   font-size: 14px;
+   }
+   @media (max-width: 480px) {
+      footer .share
+   {
+   font-size: 8px;
+   }
+   }
+   @media (max-width: 768px) {
+      footer .share
+   {
+   font-size: 10px;
+   }
+   }
