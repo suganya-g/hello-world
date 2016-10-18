@@ -50,18 +50,17 @@ footer
    {
       padding:5px 15px;
    }
-
    
 /* --------------------------------------
    Carousel
    -------------------------------------- */
    #myCarousel
    {
-      margin-top: 20px;
+      margin-top: 0px;
    }
 #myCarousel .item
 {
-   margin-top: 100px;
+   margin-top: 10px;
    height: 400px; 
 }
 #slide1
@@ -142,13 +141,9 @@ footer .share
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-   #myCarousel
-   {
-      margin-top: 40px;
-   }
 	#myCarousel .item
 {
-   margin-top: 100px;
+   margin-top: 55px;
    height: 310px; 
 }
 #slide1
@@ -179,13 +174,9 @@ footer .share
 
 /* Large desktop */
 @media (min-width: 1200px) {
-   #myCarousel
-   {
-      margin-top: 40px;
-   }
 #myCarousel .item
 {
-   margin-top: 100px;
+   margin-top: 55px;
    height: 500px; 
 }
 #slide1
